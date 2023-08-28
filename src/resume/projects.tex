@@ -1,7 +1,7 @@
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Side Projects}
+\cvsection{Projects}
 
 
 %-------------------------------------------------------------------------------
@@ -11,16 +11,29 @@
 
   %---------------------------------------------------------
   \cventry
-  {Assuject is a task progress tracking system, inspired by JIRA, Trello and Notion.}
-  {Assuject \href{https://github.com/MortalHappiness/DBM2021FallMidtermProject}{\color{red}{[Github Link]}}}
+  {A Covid-19 vaccine reservation system}
+  {VaccineReservationSystem \href{https://github.com/MortalHappiness/VaccineReservationSystem}{\color{red}{[Github Link]}}}
   {}
-  {Nov. 2021} % Date(s)
+  {May. 2022 - June 2022} % Date(s)
   {
     \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {Midterm project for "Database Management", 2021 Fall.}
+      \item {Architected a database schema for Google Bigtable, capable of accommodating up to 1,000,000 user data records.}
+      \item {Used the Golang bigtable package to do the CRUD operations on GCP.}
+      \item {Deployed the application on Google Kubernetes Engine (GKE) with an efficient auto-scaling configuration.}
+    \end{cvitems}
+  }
+
+  %---------------------------------------------------------
+  \cventry
+  {A task progress tracking system, inspired by JIRA, Trello and Notion.}
+  {Assuject \href{https://github.com/MortalHappiness/DBM2021FallMidtermProject}{\color{red}{[Github Link]}}}
+  {}
+  {Oct. 2021 - Nov. 2021} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {User can drag and drop task blocks between columns, add labels and assignees to tasks, etc.}
-      \item {Frontend: React.js, Material UI}
-      \item {Backend: Apollo GraphQL server, Prisma ORM, TypeGraphQL, PostgresSQL}
+      \item {Created ER diagram and nomalized table relations to ensure best practices when designing the database schema.}
+      \item {Used Prisma ORM to simplify the interaction between PostgresSQL and GraphQL.}
     \end{cvitems}
   }
 
@@ -29,11 +42,24 @@
   {Distributed Q\&A system deployed on ethernet}
   {Q\&A DApp \href{https://github.com/MortalHappiness/NMLab2020Fall-Final}{\color{red}{[Github Link]}}}
   {}
-  {Jan. 2021} % Date(s)
+  {Dec. 2020 - Feb. 2021} % Date(s)
   {
     \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Anyone can pay to the smart contract to ask questions and anyone can answer questions. After the post is expired, the author of the answer that has the most upvotes will be awarded.}
-      \item {Use React.js as the frontend framework, connect to metamask web3, use Solidity as the backend language, deployed on Ropsten testnet.}
+      \item {Connect to the Metamask web3 object, use Solidity as the backend language, and deployed it on Ropsten testnet.}
+    \end{cvitems}
+  }
+
+  %---------------------------------------------------------
+  \cventry
+  {Course pre-selection website for the Department of Electrical Engineering at National Taiwan University}
+  {NTUEE Course Website \href{https://github.com/NTUEEInfoDep/NTUEECourseWebsite2020}{\color{red}{[Github Link]}}}
+  {}
+  {Jul. 2020 - Dec. 2020} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {The website is written in Javascript and the distribution algorithm is written in Python.}
+      \item {Used Docker to simplify the deployment process.}
     \end{cvitems}
   }
 
@@ -42,40 +68,15 @@
   {Scoreboard web application for the game “monopoly” in NTUEE orientation camp 2020}
   {CampScoreboard \href{https://github.com/MortalHappiness/CampScoreboard}{\color{red}{[Github Link]}}}
   {}
-  {Aug. 2020} % Date(s)
+  {Jul. 2020 - Aug. 2020} % Date(s)
   {
     \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Realtime scoreboard web application backed by socket.io.}
       \item {Admin and NPCs can login and control the scores, status of spaces, special card effects, etc. The changes will be broadcasted to the frontend and trigger re-render.}
-      \item {Frontend: React.js}
-      \item {Backend: ExpressJS, MongoDB, Redis}
+      \item {Stored sessions in Redis to make the app more responsive.}
     \end{cvitems}
   }
 
   %---------------------------------------------------------
-  \cventry
-  {Course pre-selection system for NTUEE}
-  {NTUEE Course Website \href{https://github.com/NTUEEInfoDep/NTUEECourseWebsite2020}{\color{red}{[Github Link]}}}
-  {}
-  {Jul. 2020} % Date(s)
-  {
-    \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {Used to be the course pre-selection system for NTUEE.}
-      \item {The website is written in Javascript and the distribution algorithm is written in Python.}
-    \end{cvitems}
-  }
 
-  %---------------------------------------------------------
-  \cventry
-  {A multiplayer “.io” shooting game}
-  {yEEtshen \href{https://github.com/NTUEEInfoDep/yEEtshen}{\color{red}{[Github Link]}}}
-  {}
-  {Oct. 2019} % Date(s)
-  {
-    \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {NTUEE Week Game 2019}
-      \item {Keep shooting other planes and try to get the highest score!}
-      \item {Written in Javascript. Use PixiJS to render the canvas.}
-    \end{cvitems}
-  }
 \end{cventries}
